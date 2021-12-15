@@ -13,8 +13,8 @@ The application scraps a dataset in a web page to form a restful web api endpoin
 To use this Application follow these step: 
 
 ```
-git clone https://github.com/nelson-ust/Contact-Manager-App-Django
-cd Contact-Manager-Django
+git clone https://github.com/nelson-ust/Data_science_application.git
+cd SmartApp/src
 pip install -r requirements.txt
 uvicorn main:app --reload
 ```
