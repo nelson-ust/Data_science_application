@@ -23,7 +23,7 @@ async def get_result(index: Index = Path(..., title="The name of the Index")
 async def unicorn_exception_handler(request: Request, exc: MyException):
     return JSONResponse(
         status_code=418,
-        content={"message": f"Error occurred! Please contact the system admin."},
+        content={"message": f"Error occurred! Please contact Nelson Attah, the system admin."},
     )
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=8000)
