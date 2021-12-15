@@ -6,7 +6,7 @@
 </a>
 # Overview
 
-This is a simple Data Science Application that demonstrates the use of Python, FastApi, pandas and web scrapping.
+This is a simple Data Science Application that demonstrates the use of Python, FastApi, pandas and web scraping.
 
 
 The application scraps a dataset in a web page to form a restful web api endpoint that can be subsequently used for data analysis and visualiation for better decision making by stakeholders.
@@ -21,7 +21,7 @@ uvicorn main:app --reload
 
 
 ## Functionalities
-- [x] Web Scrapping
+- [x] Web Scraping
 - [x] Restful web api
 
 [Software Demo Video](http://youtube.link.goes.here)
